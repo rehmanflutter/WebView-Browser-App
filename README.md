@@ -1,3 +1,66 @@
+# WebView Browser App
+
+A Flutter-based WebView application that allows users to open and browse any website directly within the app. Users can enter a URL and access web content without leaving the application.
+
+## Features
+
+* Open any website using a custom URL
+* Embedded WebView browser
+* Internet connectivity detection
+* Fast and lightweight interface
+* Android and iOS support
+* Simple navigation and routing
+* User-friendly design
+
+## Project Structure
+
+```text
+lib/
+├── Routes/
+│   └── routing.dart
+├── View/
+│   ├── potoedit.dart
+│   └── webView.dart
+├── controller/
+│   └── networkController.dart
+└── main.dart
+
+android/
+ios/
+images/
+```
+
+## Technology Stack
+
+* Flutter 3.19
+* Dart
+* WebView Flutter
+* GetX Navigation
+* Network Connectivity
+
+## Run Project
+
+```bash
+flutter --version
+flutter pub get
+flutter run
+```
+
+## How It Works
+
+1. Enter or configure any website URL.
+2. Launch the application.
+3. The website opens inside the built-in WebView.
+4. Users can browse the website without opening an external browser.
+
+## Supported Platforms
+
+* Android
+* iOS
+
+## Purpose
+
+This application provides a simple solution for converting any website into a mobile app experience using Flutter WebView.
 
 
 <p align="center">
@@ -8,6 +71,21 @@
 
 
 
+
+       
+          
+
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/rehmanflutter/WebView-App-Net-Check-/assets/144882089/f568f8f9-ea99-4a4c-8cab-a4a0d967e2e6" alt="Image 1">
+    </td>
+    <td>
+      <img src="https://github.com/rehmanflutter/WebView-App-Net-Check-/assets/144882089/879d7daa-d5b0-43ce-8f5f-a21c77cc7aaa" alt="Image 2">
+    </td>
+  </tr>
+</table>
 
 
 
@@ -106,21 +184,6 @@ https://github.com/HEMANT-HEY/RazorPay-integration
 
 
 
-          
-          
-
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/rehmanflutter/WebView-App-Net-Check-/assets/144882089/f568f8f9-ea99-4a4c-8cab-a4a0d967e2e6" alt="Image 1">
-    </td>
-    <td>
-      <img src="https://github.com/rehmanflutter/WebView-App-Net-Check-/assets/144882089/879d7daa-d5b0-43ce-8f5f-a21c77cc7aaa" alt="Image 2">
-    </td>
-  </tr>
-</table>
-
-
+   
 
  
